@@ -1,0 +1,109 @@
+@font-face {
+    font-family: roboto;
+    src: url(../font/Roboto-Regular.ttf);
+}
+body {
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: roboto;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.head {
+    height: 5vh;
+    display: flex;
+}
+#about{
+    width: 50vw;
+    display: flex;
+    padding:20px;
+    justify-content: left;
+    align-items: center;
+}
+#user{
+    width: 50vw;
+    display: flex;
+    padding:20px;
+    justify-content: right;
+    align-items: center;
+}
+.buttons{
+    width:100px;
+    padding-left: 20px;
+}
+.main {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    width: 300px;
+    height: auto;
+    margin: 5em;
+}
+#searchbar{
+    border-style: solid;
+    height: 30px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 90px;
+
+}
+.centerbuttons{
+    padding: 20px;
+    margin: 2em;
+    background-color: #e7e7e7; color: black;
+    background-color: #ececec5e;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#searchicon{
+    padding-left: 10px;
+    height: 30px
+}
+#micicon{
+    padding-left: 375px;
+    height: 30px;
+}
+#camicon{
+    height: 30px;
+}
+.language{
+    background-color: yellow;
+    height: 50px;
+    display: flex;
+    margin-top: auto;
+    position: absolute;
+    bottom: 50px;
+    width: 100vw;
+}
+.footer {
+    background-color: yellow;
+    height: 50px;
+    display: flex;
+    margin-top: auto;
+    position: absolute;
+    bottom: 0;
+
+}
+
+
+.footer-box {
+    background-color: blueviolet;
+    width: 33.33vw;
+}

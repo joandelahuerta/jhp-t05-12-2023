@@ -1,0 +1,13 @@
+body {
+    background-color: aqua;
+    margin: 0;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: chartreuse;
+}
+.head {
+    background-color: orange;
+    height: 10vh;
+}
