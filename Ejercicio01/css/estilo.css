@@ -5,37 +5,39 @@
 body {
     margin: 0;
     flex-direction: column;
-    min-height: 100vh;
     font-family: roboto;
 }
-
 .container {
     width: 100vw;
     height: 100vh;
     position: relative;
 }
-
 .head {
     height: 5vh;
+    width: 100vw;
     display: flex;
 }
 #about{
     width: 50vw;
     display: flex;
-    padding:20px;
     justify-content: left;
     align-items: center;
+}
+.about-box{
+    padding-left: 5px;
+    width: 100px;
+    text-align: center;
 }
 #user{
     width: 50vw;
     display: flex;
-    padding:20px;
     justify-content: right;
     align-items: center;
 }
-.buttons{
-    width:100px;
-    padding-left: 20px;
+.user-box{
+    padding-right: 5px;
+    width: 100px;
+    text-align: center;
 }
 .main {
     height: 75vh;
@@ -84,26 +86,23 @@ body {
     height: 30px;
 }
 .language{
-    background-color: yellow;
+    background-color: #d3d2d25e;
     height: 50px;
     display: flex;
-    margin-top: auto;
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
     width: 100vw;
+    padding-left: 5px;
 }
 .footer {
-    background-color: yellow;
-    height: 50px;
+    background-color: #d3d2d25e;
+    height: 30px;
     display: flex;
+    width: 100vw;
     margin-top: auto;
     position: absolute;
     bottom: 0;
-
 }
-
-
 .footer-box {
-    background-color: blueviolet;
-    width: 33.33vw;
+    width: 33vw;
 }
