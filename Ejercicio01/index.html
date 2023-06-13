@@ -4,46 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/estilo.css">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <title>Google</title>
 </head>
 <body>
     <div class="container">
-        <div class="head">
-            <div id="about">
-                <div class="head">
-            <div id="about">
-                <div class="about-box">Sobre Google</div>
-                <div class="about-box">Tienda</div>
+        <div class="header">
+            <div id="header-left">
+                <a class="headerbutton" href="https://about.google/?fg=1&utm_source=google-ES&utm_medium=referral&utm_campaign=hp-header">Sobre Google</a>
+                <a class="headerbutton" href="https://store.google.com/ES?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=es-ES">Tienda</a>
             </div>
-            <div id="user">
-                <div class="user-box">Gmail</div>
-                <div class="user-box">Imágenes</div>
-                <div class="user-box"><img src="./img/apps_FILL0_wght400_GRAD0_opsz48.png" id="apps"></div>
+            <div id="header-right">
+                <a class="headerbutton" href="https://mail.google.com/mail/&ogbl">Gmail</a>
+                <a class="headerbutton" href="https://www.google.es/imghp?hl=es&ogbl">Imágenes</a>
+                <a class="headerbutton" href="https://workspace.google.com/"><img src="./img/apps_FILL0_wght400_GRAD0_opsz48.png" id="apps"></a>
+                <a class="headerbutton" id="login" href="https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https://www.google.com/&ec=GAZAmgQ">Iniciar Sesión</a>
             </div>
-        </div>
-            </div>
-            
         </div>
         <div class="main">
                 <img src="./img/Google_2015_logo.svg.png" id="logo">
-                <div id="searchbar">
-                    <img src="./img/search_FILL0_wght400_GRAD0_opsz48.png" id="searchicon">
-                    <img src="./img/keyboard_voice_FILL0_wght400_GRAD0_opsz48.png" id="micicon">
-                    <img src="./img/add_a_photo_FILL0_wght400_GRAD0_opsz48.png" id="camicon">
-                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Buscar">
+                    <button>
+                    <a href="https://youtu.be/dQw4w9WgXcQ"><img src="./img/search_FILL0_wght400_GRAD0_opsz48.png" id="apps"></a>
+                    </button>
+                </div>   
                 <div>
                     <button class="centerbuttons">Buscar con Google</button>
                     <button class="centerbuttons">Voy a tener suerte</button>
                 </div>
         </div>
         <div class="language">
-            <p>España</p>
+            <p class="languagetext">España</p>
         </div>
         <div class="footer">
-            
-            <div class="footer-box">footer-box</div>
-            <div class="footer-box">footer-box</div>
-            <div class="footer-box">footer-box</div>
+            <div id="footer-left">
+                <a class="footerbutton" href="https://www.google.com/intl/es_es/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a>
+                <a class="footerbutton" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Empresa</a>
+                <a class="footerbutton" href="https://google.com/search/howsearchworks/?fg=1">Como funciona la Búsqueda</a>
+            </div>
+            <div id="footer-center">
+                <a class="footerbutton" href="https://sustainability.google/intl/es/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content="><img src="./img/leaf.png" id="leaf"> Emisión neutra de carbono desde el 2007</a>
+            </div>
+            <div id="footer-right">
+                <a class="footerbutton" href="https://policies.google.com/privacy?hl=es&fg=1">Privacidad</a>
+                <a class="footerbutton" href="https://policies.google.com/terms?hl=es&fg=1">Términos</a>
+                <a class="footerbutton" href="https://google.com/search/howsearchworks/?fg=1">Configuración</a>
+            </div>
         </div>
 </body>
 </html>
