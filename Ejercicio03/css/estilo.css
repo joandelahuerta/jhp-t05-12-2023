@@ -75,6 +75,7 @@ h1{
     width: 320px;
     color: white;
     text-align: center;
+    cursor: pointer;
 }
 .movieimg{
     flex-shrink: 0;
