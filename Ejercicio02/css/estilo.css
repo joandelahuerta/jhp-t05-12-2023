@@ -70,6 +70,7 @@ a, a:hover, a:visited, a:active {
     padding: 5px;
     border: none;
     outline: none;
+    background-color: #f2f2f2;
     font-size: 16px;
 }
 .search-bar button {
@@ -80,6 +81,7 @@ a, a:hover, a:visited, a:active {
     color: #fff;
     cursor: pointer;
 }
+/* Configuracion de noticias y las imagenes */
 .news{
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
